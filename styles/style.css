@@ -1,0 +1,34 @@
+
+
+/*Using this id image for a background i would never
+use this ordinarily as ids should be unique for the purpose
+of backend code like angular/react or jquery based component */
+.backgroundimage {
+	background-image: url('images/backgroundimg2.jpg');
+}
+
+@media screen and (max-width: 480px) and (orientation: portrait){
+  .mobileimage {
+	margin-top:60%;
+}
+}
+
+h4 {
+	color:white;
+}
+
+a {
+text-decoration: none;	
+}
+
+a:hover
+{
+	text-decoration: none;
+	color:white;
+	border-bottom: 1px solid white;
+}
+
+a:link
+{
+	color:white;
+}
